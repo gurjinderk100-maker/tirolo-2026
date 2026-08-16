@@ -1666,7 +1666,8 @@
 
 <script>
 (function () {
-  if (!('serviceWorker' in navigator) || location.protocol !== 'https:') return;
+  // su file:// il service worker non e' consentito: la pagina resta comunque valida
+  if (!('serviceWorker' in navigator) || location.protocol === 'file:') return;
 
   var reloading = false;
   navigator.serviceWorker.addEventListener('controllerchange', function () {

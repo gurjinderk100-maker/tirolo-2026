@@ -1,7 +1,7 @@
 /* service worker della pagina Austria 2026 — generato da build_offline.py.
    VERSION e' l'impronta del contenuto: cambiando la pagina cambiano questi byte,
    il browser se ne accorge e propone l'aggiornamento. */
-var VERSION = '9b82681421';
+var VERSION = 'b17782245c';
 var CACHE = 'austria-2026-' + VERSION;
 var ASSETS = [
   './',
